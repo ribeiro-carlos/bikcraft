@@ -12,11 +12,17 @@ a {
   color: inherit;
 }
 h1,
-h2 p {
+h2,
+h3,
+h4,
+p {
   margin: 0;
   padding: 0;
 }
 img {
   max-width: 100%;
   display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
